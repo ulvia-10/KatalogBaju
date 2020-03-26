@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/logo_jilbrave_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GalleryActivity"></activity>
+        <activity android:name=".ShoesActivity"></activity>
+        <activity android:name=".BagsActivity" />
+        <activity android:name=".model.Item" />
+        <activity android:name=".model.Image" />
+        <activity android:name=".DressActivity" />
         <activity android:name=".RecycleActivity" />
-        <activity android:name=".RecycleViewAdapter" />
+        <activity android:name=".adapters.JilbraveAdapter" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -7,22 +7,22 @@ import android.util.Log;
 import java.util.ArrayList;
 
 public class RecycleActivity extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
+private static final String TAG = "MainActivity";
 
-    //deklarasi variable
-    private ArrayList<String> Names = new ArrayList<>();
-    private ArrayList<String> ImageUrl = new ArrayList<>();
+//deklarasi variable
+private ArrayList<String> Names = new ArrayList<>();
+private ArrayList<String> ImageUrl = new ArrayList<>();
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+@Override
+protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycle);
         Log.d(TAG, "onCreate:started.");
 
         initImageBitmaps();
-    }
+        }
 
-    private void initImageBitmaps() {
+private void initImageBitmaps() {
         ImageUrl.add("https://muslimore.com//uploads/products/data/gamis-dress-wanita-zoya-enisa-dress.jpg");
         Names.add("Harumi Dress");
 
@@ -50,10 +50,10 @@ public class RecycleActivity extends AppCompatActivity {
         ImageUrl.add("https://fashionmuslim.info/wp-content/uploads/2018/10/Gamis-Zoya-Model-Baru-2019.jpg");
         Names.add("Montana Dress                                                                 7");
         initRecyclerView();
-    }
+        }
 
-    private void initRecyclerView() {
-    }
+private void initRecyclerView() {
+        }
 
 
-}
+        }
